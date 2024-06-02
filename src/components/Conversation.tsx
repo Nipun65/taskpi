@@ -1,6 +1,6 @@
 import React from "react";
-const Coversatation = ({ convo }) => {
-  console.log(convo, "convo component");
+
+const Conversation = ({ convo }) => {
   return (
     <div className="h-[20rem] overflow-auto flex flex-col gap-2">
       {convo.map((value) => {
@@ -18,4 +18,4 @@ const Coversatation = ({ convo }) => {
     </div>
   );
 };
-export default Coversatation;
+export default Conversation;
